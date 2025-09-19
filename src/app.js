@@ -44,4 +44,8 @@ app.use("/api/v1/category", categoryRouter);
 app.use("/api/v1/products", productRouter);
 
 app.use("/api/v1/payment", paymentRouter);
+app.get('/', (req, res) => {
+  res.send('Backend is running');
+});
+
 export { app };
