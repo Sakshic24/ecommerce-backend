@@ -3,7 +3,7 @@ import axios from 'axios';
 
 import dotenv from "dotenv";
 import connectDB from "./db/index.js";
-axios.defaults.baseURL = import.meta.env.VITE_API_URL || "http://localhost:4000";
+// axios.defaults.baseURL = import.meta.env.VITE_API_URL || "http://localhost:4000";
 
 // dotenv.config({ path: "../.env" });
 dotenv.config();
